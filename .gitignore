@@ -1,0 +1,14 @@
+cache/
+content/
+Outputs/
+results/
+study_results_*
+__pycache__
+data/cleaned_bonn
+data/berlin/
+data/hamburg/
+data/new york/
+data/tokyo/
+data/verona/
+data/verona_paper_dataset
+data/old*
