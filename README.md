@@ -24,7 +24,7 @@ python3 train_eval_model.py --city '<city_name>' --cpg_k '<cpg_k>' --alpha_param
 ``` 
 - DIRECT model checkpoints and logs will be saved in the `content` folder. The test set evaluation metrics and generated routes will be saved in `results` folder.
 
-### Disclaimer
+## Disclaimer
 
 - The OpenStreetMap name is a trademark of the OpenStreetMap Foundation and is used with their permission. We are not endorsed by or affiliated with the OpenStreetMap Foundation.
 - We do not include data from OpenStreetMap in this repository. OpenStreetMap data is available under the [Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/) https://www.openstreetmap.org/copyright.
