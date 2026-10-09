@@ -5,7 +5,7 @@ The code in this repository is an implementation of our published approach: <br>
 Genivika Mann, Rajjat Dadwal, and Elena Demidova. “DIRECT: Deep Reinforcement Learning for Tourist Route Generation”. In: ACM Transactions on Spatial Algorithms and Systems (TSAS), 2026. Association for Computing Machinery. DOI: https://doi.org/10.1145/3839237. <br>
 If you use the source code, please cite our research (see [Citation](#citation)). <br>
 
-## Notes:
+## Notes
 
 1) This repository does not contain any data. For Berlin, Bonn, Hamburg, New York and Tokyo, all POI and street network data is fetched from [OpenStreetMap](https://www.openstreetmap.org/) by the provided data generation script. For Verona, the Verona dataset from Vecchia et al. has to be obtained separately and its location set in `DATASET_PATH` in `dataset_generation/prepare_verona_data.py`. <br>
 2) The data generation scripts write to `../data/<city>/` relative to the current working directory, so they must be run from inside the `dataset_generation/` folder. The training scripts read from `./data/<city>/` and must be run from the repository root. <br>
@@ -69,7 +69,7 @@ DIRECT_RouteGen/
 
 ```
 
-## Folder Descriptions:
+## Folder Descriptions
 <b> dataset_generation/ </b> <br>
 Contains the scripts for creating the city datasets. <br>
   + prepare_data.py – fetches POIs and the walkable street network from OpenStreetMap and creates the user requests for Berlin, Bonn, Hamburg, New York and Tokyo
